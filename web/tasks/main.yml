@@ -1,0 +1,6 @@
+---
+# tasks file for web
+- import_tasks : security_group.yml
+- import_tasks: spin_up_ec2.yml
+#- import_tasks: create_loadbalancer.yml
+#- import_tasks: add_instance_to_load_balancer.yml

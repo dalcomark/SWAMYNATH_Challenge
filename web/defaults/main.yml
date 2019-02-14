@@ -1,0 +1,9 @@
+---
+# defaults file for web
+region: us-west-1
+#key_name: test.pem
+instance_type: t2.micro
+ami: ami-0799ad445b5727125
+app_code_user: "ec2-user" # remote user
+env: demo
+pem_key: test # key.pem

@@ -1,0 +1,10 @@
+---
+- name: A simple Load Balanced AWS server
+  hosts: localhost
+  connection: local
+  become: yes
+  become_method: sudo
+  gather_facts: False 
+
+  roles:
+    - web

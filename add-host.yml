@@ -1,0 +1,9 @@
+---
+  - hosts: localhost
+    gather_facts: false
+    tasks:
+      - name: add a host with a non-standard port local to your machines
+        add_host:
+        name: "{{ item.public_ip }}"
+        groups: local
+
